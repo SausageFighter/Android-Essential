@@ -12,7 +12,6 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/logtxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/view_16"
@@ -24,23 +23,25 @@
             android:layout_marginTop="@dimen/view_8"/>
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/edittext_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/emial"
             android:layout_marginLeft="@dimen/view_16"
-            android:layout_marginRight="@dimen/view_16"/>
+            android:layout_marginRight="@dimen/view_16"
+            android:inputType="textEmailAddress"/>
 
         <EditText
-            android:id="@+id/phone"
+            android:id="@+id/edittext_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/phone"
             android:layout_marginLeft="@dimen/view_16"
-            android:layout_marginRight="@dimen/view_16"/>
+            android:layout_marginRight="@dimen/view_16"
+            android:inputType="phone"/>
 
         <CheckBox
-            android:id="@+id/tc"
+            android:id="@+id/checkbox_accept"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tc"
@@ -48,7 +49,7 @@
             android:layout_marginTop="@dimen/view_8"/>
 
         <Button
-            android:id="@+id/submit"
+            android:onClick="btnSubmitOnClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
@@ -59,6 +60,11 @@
             android:layout_marginTop="@dimen/view_8"
             android:layout_marginLeft="@dimen/view_16"
             android:layout_marginRight="@dimen/view_16"/>
+
+        <TextView
+            android:id="@+id/textview_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
