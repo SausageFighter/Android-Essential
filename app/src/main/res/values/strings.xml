@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Developers Fundamentals</string>
+    <string name="text_to_display">Happy birthday Mijai!</string>
+    <string name="login">Login</string>
+    <string name="tc">I accept T&amp;C</string>
+    <string name="emial">Email</string>
+    <string name="phone">Phone</string>
+</resources>
