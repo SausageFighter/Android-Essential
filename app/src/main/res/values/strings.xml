@@ -59,4 +59,7 @@
     <string name="hello_world">Hello World!</string>
     <string name="hello_android">Hello Android!</string>
     <string name="week2_view_examples">Week 2 - View Examples</string>
+    <string name="christmas_text">Have yourself a merry little Christmas, \nLet your heart be light \nFrom now on, our troubles will be out of sight</string>
+    <string name="let_it_snow">Let it snow</string>
+    <string name="gingles_bells">Gingles bells</string>
 </resources>
