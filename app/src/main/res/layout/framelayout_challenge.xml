@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/purple"
+        android:layout_marginTop="@dimen/view_176"
+        android:layout_marginBottom="@dimen/view_176"
+        android:layout_marginRight="@dimen/view_8"
+        android:layout_marginLeft="@dimen/view_8"></View>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_blue"
+            android:layout_marginTop="@dimen/view_208"
+            android:layout_marginBottom="@dimen/view_208"
+            android:layout_marginRight="@dimen/view_24"
+            android:layout_marginLeft="@dimen/view_24"></View>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_yellow"
+            android:layout_marginTop="@dimen/view_224"
+            android:layout_marginBottom="@dimen/view_224"
+            android:layout_marginRight="@dimen/view_40"
+            android:layout_marginLeft="@dimen/view_40"></View>
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
