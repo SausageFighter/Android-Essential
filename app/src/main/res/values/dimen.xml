@@ -5,6 +5,14 @@
     <dimen name="view_24">24dp</dimen>
     <dimen name="view_32">32dp</dimen>
     <dimen name="view_40">40dp</dimen>
+    <dimen name="view_48">48dp</dimen>
+    <dimen name="view_56">56dp</dimen>
+    <dimen name="view_64">64dp</dimen>
+    <dimen name="view_72">72dp</dimen>
+    <dimen name="view_80">80dp</dimen>
+    <dimen name="view_88">88dp</dimen>
+    <dimen name="view_96">96dp</dimen>
+    <dimen name="view_104">104dp</dimen>
 
     <dimen name="text_8">8sp</dimen>
     <dimen name="text_16">16sp</dimen>

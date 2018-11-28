@@ -26,7 +26,7 @@
             android:id="@+id/edittext_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/emial"
+            android:hint="@string/email"
             android:layout_marginLeft="@dimen/view_16"
             android:layout_marginRight="@dimen/view_16"
             android:inputType="textEmailAddress"/>
@@ -44,7 +44,7 @@
             android:id="@+id/checkbox_accept"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tc"
+            android:text="@string/accept"
             android:layout_marginLeft="@dimen/view_16"
             android:layout_marginTop="@dimen/view_8"/>
 

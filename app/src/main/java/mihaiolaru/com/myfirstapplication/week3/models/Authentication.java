@@ -3,31 +3,31 @@ package mihaiolaru.com.myfirstapplication.week3.models;
 public class Authentication {
 
     private String mEmail;
-    private  String mPhone;
+    private String mPhone;
     private boolean mIsAccepted;
 
-    public String getmEmail() {
+    public String getEmail() {
         return mEmail;
     }
 
-    public void setmEmail(String mEmail) {
-        this.mEmail = mEmail;
+    public void setEmail(String email) {
+        mEmail = email;
     }
 
-    public String getmPhone() {
+    public String getPhone() {
         return mPhone;
     }
 
-    public void setmPhone(String mPhone) {
-        this.mPhone = mPhone;
+    public void setPhone(String phone) {
+        mPhone = phone;
     }
 
-    public boolean ismIsAccepted() {
+    public boolean isAccepted() {
         return mIsAccepted;
     }
 
-    public void setmIsAccepted(boolean mIsAccepted) {
-        this.mIsAccepted = mIsAccepted;
+    public void setAccepted(boolean accepted) {
+        mIsAccepted = accepted;
     }
 
     @Override
