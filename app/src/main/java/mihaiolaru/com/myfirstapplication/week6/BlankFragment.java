@@ -15,6 +15,7 @@ import mihaiolaru.com.myfirstapplication.R;
  */
 public class BlankFragment extends Fragment {
 
+    private int number;
     private TextView mTextViewIsOddOrEven;
 
     public BlankFragment() {
@@ -30,18 +31,33 @@ public class BlankFragment extends Fragment {
 
         mTextViewIsOddOrEven = view.findViewById(R.id.textView_isoddorevennumber);
 
-        Bundle bundle = getArguments();
-        if (bundle != null) {
-            int number = bundle.getInt(DynamicActivity.NUMBER, 0);
-            if (number % 2 == 0) {
-                mTextViewIsOddOrEven.setText(number + " is even");
-            } else {
-                mTextViewIsOddOrEven.setText(number + " is odd");
-            }
+        //BUNDLE
+//        Bundle bundle = getArguments();
+//        if (bundle != null) {
+//            int number = bundle.getInt(DynamicActivity.NUMBER, 0);
+//            if (number % 2 == 0) {
+//                mTextViewIsOddOrEven.setText(number + " is even");
+//            } else {
+//                mTextViewIsOddOrEven.setText(number + " is odd");
+//            }
+//
+//        }
 
-        }
-
+        isEvenOrOdd();
         return view;
     }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    private void isEvenOrOdd () {
+        if (number % 2 == 0) {
+            mTextViewIsOddOrEven.setText(number + " is even");
+        } else {
+            mTextViewIsOddOrEven.setText(number + " is odd");
+        }
+    }
+
 
 }

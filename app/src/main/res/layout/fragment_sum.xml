@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week6.SumFragment"
+    android:padding="@dimen/view_16"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/edittextNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 1"
+        android:layout_marginTop="@dimen/view_8"/>
+
+    <EditText
+        android:id="@+id/edittextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 2"
+        android:layout_marginTop="@dimen/view_48"/>
+
+    <Button
+        android:id="@+id/buttonSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Sum"
+        android:layout_marginTop="@dimen/view_96"/>
+
+
+</FrameLayout>

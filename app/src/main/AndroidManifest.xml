@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week6.DynamicActivity">
+        <activity android:name=".week6.ListenerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,8 @@
         <activity android:name=".week4.ConstrainLayoutChallenge" />
         <activity android:name=".week5.Main2Activity" />
         <activity android:name=".week5.second_activity" />
-        <activity android:name=".week6.StaticActivity"></activity>
+        <activity android:name=".week6.StaticActivity" />
+        <activity android:name=".week6.DynamicActivity"></activity>
     </application>
 
 </manifest>

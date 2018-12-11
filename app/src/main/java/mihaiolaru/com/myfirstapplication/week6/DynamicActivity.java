@@ -42,15 +42,25 @@ public class DynamicActivity extends AppCompatActivity {
         if (mEditTextNumber != null) {
             String numberString = mEditTextNumber.getText().toString();
             if (numberString != null && !numberString.isEmpty()) {
-                int number = Integer.parseInt(numberString);
-                Bundle bundle =  new Bundle();
-                bundle.putInt(NUMBER, number);
 
+                //BUNDLE
+//                Bundle bundle =  new Bundle();
+//                bundle.putInt(NUMBER, number);
+//
+//                BlankFragment blankFragment = new BlankFragment();
+//                blankFragment.setArguments(bundle);
+//                initFragment(blankFragment);
+
+
+                //METODA
                 BlankFragment blankFragment = new BlankFragment();
-                blankFragment.setArguments(bundle);
+                blankFragment.setNumber(Integer.parseInt(numberString));
                 initFragment(blankFragment);
+
             }
         }
 
     }
+
+
 }
