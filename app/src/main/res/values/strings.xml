@@ -62,4 +62,7 @@
     <string name="christmas_text">Have yourself a merry little Christmas, \nLet your heart be light \nFrom now on, our troubles will be out of sight</string>
     <string name="let_it_snow">Let it snow</string>
     <string name="gingles_bells">Gingles bells</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

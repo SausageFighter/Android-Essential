@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="mihaiolaru.com.myfirstapplication">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week4.ConstrainLayoutChallenge">
+        <activity android:name=".week6.DynamicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +22,12 @@
         <activity android:name=".week3.LoginScreen" />
         <activity android:name=".week4.CodingChallengeW4" />
         <activity android:name=".week4.SpinnerActivity" />
-        <activity android:name=".week4.RecycleViewActivity"></activity>
+        <activity android:name=".week4.RecycleViewActivity" />
+        <activity android:name=".week5.funny_app" />
+        <activity android:name=".week4.ConstrainLayoutChallenge" />
+        <activity android:name=".week5.Main2Activity" />
+        <activity android:name=".week5.second_activity" />
+        <activity android:name=".week6.StaticActivity"></activity>
     </application>
 
 </manifest>
